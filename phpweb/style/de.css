@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+.billing{
+    display: flex;
+    margin-top: 7rem;
+     
+     
+}
+.billing-details{
+    margin-left: 5rem;
+}
+.billing-details p{
+    font-family: "Nunito Sans",sans-serif;
+font-size: 30px;
+}
+
+.frname{
+    font-family: "Nunito Sans",sans-serif;
+     height: 40px;
+     width: 383px;
+     border: 1px solid black;
+     border-radius: 3px;
+     padding-left: 6px;
+}
+#name{
+    display: flex;
+}
+
+.lastname{
+    font-family: "Nunito Sans",sans-serif;
+     height: 40px;
+     width: 383px;
+     border: 1px solid black;
+     border-radius: 3px;
+     padding-left: 6px;
+     margin-left: 24px;
+}
+
+.coun{
+    font-family: "Nunito Sans",sans-serif;
+    height: 40px;
+    width: 792px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 6px;
+    margin-top: 1.6rem;
+   
+}
+
+.com{
+    font-family: "Nunito Sans",sans-serif;
+    height: 40px;
+    width: 792px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 6px;
+    margin-top: 1.6rem;
+}
+
+.ci{
+    font-family: "Nunito Sans",sans-serif;
+    height: 40px;
+    width: 792px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 6px;
+    margin-top: 1.6rem;
+}
+
+.em{
+    font-family: "Nunito Sans",sans-serif;
+    height: 40px;
+    width: 792px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 6px;
+    margin-top: 1.6rem;
+}
+
+
+
+.payment-main{
+    margin-left: 3rem;
+}
+.cars-total{
+    margin-top: 5rem;
+}
+.Cart-p1{
+    font-family: "Raleway",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 250px;
+}
+
+.sub-p1{
+    font-family: "Nunito Sans",sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+.sub-p2{
+    font-family: "Nunito Sans",sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+
+.policy{
+    width: 382px;
+    margin-top: 2rem;
+}
+
+
+form #function2 {
+    font-family: "Nunito Sans", sans-serif;
+    height: 45px;
+    width: 290px;
+    background-color: transparent;
+    /* margin-top: 5rem; */
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    color: black; /* Default text color */
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+form #function2::before {
+    content: "";
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 130%;
+    height: 100%;
+    transform: rotate(90deg); 
+    transform-origin: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: -1;
+}
+form{
+    margin-top: 1rem;
+}
+form #function2:hover {
+    color: white; /* Change text color on hover */
+}
+
+form #function2:hover::before {
+    transform: rotate(0deg);
+}

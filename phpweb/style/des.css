@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+.dis-main{
+    margin-top: 8rem;
+}
+.dis-button {display: flex;
+
+margin-left: 5.3rem;
+}
+
+.dis-button button{
+
+    height: 56px;
+    width: 188px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: "Raleway",sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.dis-button .b1{
+    border-right: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.dis-button .ad2{
+    border-right: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.dis-button .ad1{
+    background-color: white;
+    font-family: "Raleway",sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+}
+.dis-con{
+margin-left: 5.3rem;
+margin-top: 6rem;
+}
+
+.dis-con .dis-con-pa{
+    font-family: "Nunito Sans",sans-serif;
+    width: 870px;
+    color: #616161;
+
+}
+
+
+.option1{
+    display: flex;
+    margin-top: 1rem;
+}
+
+
+.option1  p{
+    font-family: "Nunito Sans",sans-serif;
+color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 1rem ;
+}
+
+
+.option1  i{
+    font-size: 18px;
+    color: #eaaa85;
+    margin-top: 2px;
+
+}
+
+
+.dis-con-option{
+    margin-top: 2rem;
+
+
+}
+
+.more-de{
+    margin-top: 3rem;
+}
+.more-de1-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 35px;
+    background-color: #f3f3f3;
+}
+.more-de1{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 20px;
+    
+
+}
+.more-de1 p{
+    font-family: "Nunito Sans",sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #616161;
+}
+
+.more-de2-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 35px;
+    /* background-color: #f3f3f3; */
+}
+.more-de2{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 20px;
+    
+
+}
+.more-de2 p{
+    font-family: "Nunito Sans",sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #616161;
+}   
+
+
+ .remove{
+     display: none;
+ }
+ .remove2{
+    display: none;
+}
+
+
+ 
+ 
+  
+
+ /* .rating-start */
+
+ .review-main{
+     margin-left: 5.5rem;
+     margin-top: 4rem;
+ }
+    
+  
+ .pic{
+     display: flex;
+
+      
+ }
+  .pic img{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+       
+  }
+  .rating-con{
+      margin-top: 1rem;
+      margin-left: 2rem;
+  }
+  .rating{
+      display: flex;
+      justify-content: space-between;
+      /* background-color: #616161; */
+      width: 100px;
+  }
+  .rating i{
+      font-size: 15px;
+    color: #eaaa85;
+
+  }  
+
+ .rating-con p{
+    font-family: "Raleway",sans-serif;
+font-size: 18px;
+font-weight: 500;
+margin-top: 5px;
+ } 
+
+ .name  .cus-re{
+     width: 785px;
+    font-family: "Nunito Sans",sans-serif;
+margin-left: 6rem;
+ }
+
+ .name .date{
+    font-family: "Nunito Sans",sans-serif;
+    margin-left: 6rem;
+    color: #616161;
+ }
+
+  .revew-form{
+      margin-top: 4rem;
+  }
+.revew-form .Add{
+    font-family: "Raleway",sans-serif;
+font-size: 26px;
+font-weight: 600;
+}
+.revew-form .email{
+    font-family: "Nunito Sans",sans-serif;
+    color: #616161;
+    font-size: 16px;
+
+}
+
+ 
+form #re {
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    resize: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito Sans",sans-serif;
+
+    color: #333;
+  }
+  
+  form #re::placeholder {
+    color: #aaa;
+  }
+
+  form #na{
+    width: 900px;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    resize: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito Sans",sans-serif;
+
+    color: #333; height: 56px;
+    border: 1px solid #ccc;
+    font-family: "Nunito Sans",sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+
+
+
+  }
+  form #na::placeholder {
+    color: #aaa;
+  }
+  
+
+  form #em{
+    width: 900px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    resize: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito Sans",sans-serif;
+
+    color: #333; height: 56px;
+    border: 1px solid #ccc;
+    font-family: "Nunito Sans",sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+
+
+
+  }
+  form #em::placeholder {
+    color: #aaa;
+  }
+
+
+
+
+  
+.revew-form #function2 {
+    font-family: "Nunito Sans", sans-serif;
+    height: 56px;
+    width: 140px;
+    background-color: transparent;
+     margin-top: 3rem;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    color: black; /* Default text color */
+}
+
+.revew-form #function2::before {
+    content: "";
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 130%;
+    height: 100%;
+    transform: rotate(90deg); 
+    transform-origin: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: -1;
+}
+
+.revew-form #function2:hover {
+    color: white; /* Change text color on hover */
+}
+
+.revew-form #function2:hover::before {
+    transform: rotate(0deg);}
+ /* .rating-end */

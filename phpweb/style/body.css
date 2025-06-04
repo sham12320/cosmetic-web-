@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+} 
+
+/* banner-start */
+.banner{
+    overflow: hidden;
+}
+.banner-imag{
+    display: flex;
+}
+.banner-img-1 img{
+    height: 810px;
+    width: 1000px;
+}
+
+.banner-img-2 img{
+    height: 810px;
+    width: 889px;
+    position: relative;
+    right: 17rem;
+}
+.banner-img-1 .imag-1-con{
+    position: absolute;
+    top: 22rem;
+    left: 8rem;
+
+}
+.imag-1-con h4{
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 80px;
+    width: 400px;
+}
+.imag-1-con p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 3rem;
+}
+.imag-1-con button {
+    font-family: "Nunito Sans", sans-serif;
+    height: 56px;
+    width: 140px;
+    background-color: transparent;
+    margin-top: 5rem;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    color: black; /* Default text color */
+}
+
+.imag-1-con button::before {
+    content: "";
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 130%;
+    height: 100%;
+    transform: rotate(90deg); 
+    transform-origin: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: -1;
+}
+
+.imag-1-con button:hover {
+    color: white; /* Change text color on hover */
+}
+
+.imag-1-con button:hover::before {
+    transform: rotate(0deg);
+}
+
+/* banner-end */
+ 
+
+/* product-card-start */
+.product-card-main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    /* background-color: aquamarine; */
+    margin-top: 2rem;
+}
+
+.card1  .card1-border{
+    width: 360px;
+    height: 386px;
+    border: 1px solid black;
+    }
+
+    .card1  .card1-border h1{
+        font-weight: 300;
+       font-family: "Satisfy";
+       font-style: italic;
+       color: #ffe5d5;
+       font-size: 90px;
+       margin-top: 11rem;
+      margin-left: 3rem;
+        }
+        .card1  .card1-border p{
+            font-weight: 400;
+           font-family: "Railway" sans-serif;
+           /* font-style: italic; */
+           color: white;
+           font-size: 24px;
+           margin-top: 1rem;
+      margin-left: 3rem;
+
+            }
+            .card1{
+                display: flex;
+            }
+
+            .card1-img  {
+                width: 360px;
+    height: 386px;
+                overflow: hidden;
+                  position: absolute;
+               top: 60rem;
+               margin-left: 1rem;
+                z-index: -1;
+            }
+            .card1-img  img{
+                /* width: 450px; */
+                height: 386px;
+                position: relative;
+                right: 9rem;
+                 
+            }
+
+
+
+
+            .card2  .card2-border{
+                width: 360px;
+                height: 386px;
+                border: 1px solid black;
+                }
+            
+                .card2  .card2-border h1{
+                    font-weight: 300;
+                   font-family: "Satisfy";
+                   font-style: italic;
+                   color: #f7bb98;
+                   font-size: 90px;
+                   margin-top: 11rem;
+                  margin-left: 3rem;
+                    }
+                    .card2  .card2-border p{
+                        font-weight: 400;
+                       font-family: "Railway" sans-serif;
+                       /* font-style: italic; */
+                       color: black;
+                       font-size: 24px;
+                       margin-top: 1rem;
+                  margin-left: 3rem;
+            
+                        }
+                        .card2{
+                            display: flex;
+                        }
+            
+                        .card2-img  {
+                            width: 360px;
+                            height: 386px;
+                                        overflow: hidden;
+                                          position: absolute;
+                                       top: 60rem;
+                                       margin-left: 1rem;
+                                        z-index: -1;
+                        }
+                        .card2-img  img{
+                            /* width: 450px; */
+                            height: 386px;
+                            position: relative;
+                            right: 9rem;
+                             
+                        }
+
+
+                
+                      .card2  .card2-border{
+                width: 360px;
+                height: 386px;
+                border: 1px solid black;
+                }
+            
+                .card2  .card2-border h1{
+                    font-weight: 300;
+                   font-family: "Satisfy";
+                   font-style: italic;
+                   color: #f7bb98;
+                   font-size: 90px;
+                   margin-top: 11rem;
+                  margin-left: 3rem;
+                    }
+                    .card2  .card2-border p{
+                        font-weight: 400;
+                       font-family: "Railway" sans-serif;
+                       /* font-style: italic; */
+                       color: black;
+                       font-size: 24px;
+                       margin-top: 1rem;
+                  margin-left: 3rem;
+            
+                        }
+                        .card2{
+                            display: flex;
+                        }
+            
+                        .card2-img  {
+                            width: 360px;
+                            height: 386px;
+                                        overflow: hidden;
+                                          position: absolute;
+                                       top: 60rem;
+                                       margin-left: 1rem;
+                                        z-index: -1;
+                        }
+                        .card2-img  img{
+                            /* width: 450px; */
+                            height: 386px;
+                            position: relative;
+                            right: 9rem;
+                             
+                        }
+                        
+                        /* ? */
+                        .card3  .card3-border{
+                            width: 360px;
+                            height: 386px;
+                            border: 1px solid black;
+                            }
+                        
+                            .card3  .card3-border h1{
+                                font-weight: 300;
+                               font-family: "Satisfy";
+                               font-style: italic;
+                               color: #e3cbbb;
+                               font-size: 90px;
+                               margin-top: 11rem;
+                              margin-left: 3rem;
+                                }
+                                .card3  .card3-border p{
+                                    font-weight: 400;
+                                   font-family: "Railway" sans-serif;
+                                   /* font-style: italic; */
+                                   color: black;
+                                   font-size: 24px;
+                                   margin-top: 1rem;
+                              margin-left: 3rem;
+                        
+                                    }
+                                    .card3{
+                                        display: flex;
+                                    }
+                        
+                                    .card3-img  {
+                                        width: 360px;
+                                        height: 386px;
+                                                    overflow: hidden;
+                                                      position: absolute;
+                                                   top: 60rem;
+                                                   margin-left: 1rem;
+                                                    z-index: -1;
+                                    }
+                                    .card3-img  img{
+                                        /* width: 450px; */
+                                        height: 386px;
+                                        position: relative;
+                                        right: 9rem;
+                                         
+                                    }
+
+/* product-card-end */
+
+ 
+
+ 
+
+ 

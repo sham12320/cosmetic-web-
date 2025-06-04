@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+ /* header-start */
+ .header-code-main{
+     display: flex;
+     justify-content: center;
+ }
+ .header-main{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 97%;
+
+ }
+ .header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /* background-color: aqua; */
+     width: 97%;
+     height: 70px;
+
+ }
+
+ .header-image img{
+     width: 170px;
+     height: 18px;
+     margin-bottom: 10px;
+ }
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px ;
+
+    /* background-color: aqua; */
+}
+ .header-con .header-p1{
+     font-family: "Raleway", sans-serif;
+     font-size: 15.5px;
+     font-weight: 600;
+     /* background-color: blanchedalmond; */
+margin-top: 0.7rem;
+cursor: pointer;
+ }
+
+ .header-con .header-p2 button{
+    font-family: "Raleway", sans-serif;
+    font-size: 15.5px;
+    font-weight: 600;
+      border: none;
+}
+.header-con .header-p3{
+    cursor: pointer;
+    display: flex;
+    
+    /* background-color: blanchedalmond; */
+    width: 115px;
+    justify-content: space-between;
+    height: 25px;
+}
+.header-con .header-p3 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 15.5px;
+    font-weight: 600;
+}
+
+.hreader-icon{
+    /* background-color: rgb(5, 168, 114); */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.hreader-icon i{
+    font-size: 25px;
+}
+.imag-1-con{
+    position: absolute;
+    top: 13rem;
+}
+
+ /* header-end*/

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+} 
+.product-detail-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.product-detail{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.p1-banner-main{
+    overflow: hidden;
+}
+.p1-banner-con{
+    position: absolute;
+    top: 20rem;
+    left: 4rem;
+}
+.p1-banner-con p{
+    color: #eaaa85;
+    font-family: "Satisfy";
+    font-style: italic;
+    font-weight: 200;
+
+    font-size: 35px;
+}
+
+.p1-banner-con h1{
+
+    font-family: "Raleway",sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+}
+.product-img{
+    /* background: #eaaa85; */
+    height: 580px;
+
+}
+
+.product-img img{
+    height: 580px;
+    width: 449px;
+
+}
+
+.p1-img-border{
+    position: relative;
+    bottom: 35rem;
+    margin-left: 1.2rem;
+    height: 550px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+
+.p1-img-sale{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+    position: relative;
+    right: 1.2rem;
+    display: flex;
+     
+    justify-content: center;
+    font-family: "Raleway",sans-serif;
+font-weight: 500;
+}
+
+.p1-img-sale p{
+    margin-top: 3px;
+     
+}
+
+
+
+
+.product1-price{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(18, 120, 209); */
+    width: 170px;
+    font-family: "Nunito sans",sans-serif;
+    font-size: 23px;
+
+}
+
+
+.product1-price .par1{
+    text-decoration: line-through;
+    color: #969696;
+}
+.product1-price .par2{
+    /* text-decoration: line-through; */
+    color: #eaaa85;
+}
+
+.product1-icon {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #302926; */
+    width: 95px;
+}
+.product1-icon{
+    color: #eaaa85;
+    font-size: 15px;
+}
+.product1-para .para1{
+    width: 590px;
+    color: #616161;
+    font-family: "Raleway",sans-serif;
+    margin-top: 3rem;
+
+
+}
+
+
+.product1-para .para2{
+    width: 590px;
+    color: #616161;
+    font-family: "Raleway",sans-serif;
+    margin-top: 2rem;
+
+
+}
+
+.tags{
+    display: flex;
+    /* background-color: #969696; */
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-top: 2rem;
+}
+.tags p{
+    font-family: "Raleway",sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.tags button{
+    border: 1px solid black;
+    height: 30px;
+    width: 91px;
+    font-family: "Raleway",sans-serif;
+    background-color: white;
+    font-weight: 500;
+    transition: 1s all ease-in-out;
+
+}
+
+
+
+.tags button:hover{
+    background-color: #eaaa85;
+    border: 1px solid #eaaa85;
+
+}
+
+
+.incre{
+    /* background-color: #969696; */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.incre button{
+    height: 54px;
+    width: 54px; 
+   background-color: white;
+    font-size: 18px;
+}
+
+.buynow-b{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(21, 117, 201); */
+    width: 400px;
+    margin-top: 3rem;
+}
+.buynow-b #function2 {
+    font-family: "Nunito Sans", sans-serif;
+    height: 56px;
+    width: 140px;
+    background-color: transparent;
+     
+    cursor: pointer;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    color: black; /* Default text color */
+}
+
+.buynow-b #function2::before {
+    content: "";
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 130%;
+    height: 100%;
+    transform: rotate(90deg); 
+    transform-origin: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: -1;
+}
+
+.buynow-b #function2:hover {
+    color: white; /* Change text color on hover */
+}
+
+.buynow-b #function2:hover::before {
+    transform: rotate(0deg);}

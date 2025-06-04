@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+} 
+
+
+
+/* banner-1-img-start */
+  .banner-1{
+      height: 280px;
+  }
+.banner-1-img img{
+     height: 200px;
+     width: 100%;
+}
+.banner-1-logo-main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 12rem;
+}
+.banner-1-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 95%;
+}
+
+.banner-1-logo .banner-img1{
+    height: 109px;
+    width: 149px;
+}
+
+.banner-1-logo .banner-img2{
+    height: 54px;
+    width: 123px;
+}
+
+.banner-1-logo .banner-img3{
+    height: 79px;
+    width: 184px;
+}
+
+.banner-1-logo .banner-img4{
+    height: 49px;
+    width: 122px;
+}
+
+.banner-1-logo .banner-img5{
+    height: 140px;
+    width: 150px;
+}
+
+.banner-1-logo .banner-img6{
+    height: 25.5px;
+    width: 180px;
+}
+/* banner-1-img-end */
+
+
+
+/* db-con-start */
+.down-banner1-con-main{
+    margin-top: 6rem;
+}
+.down-banner1-con-img .down-banner1-con-img-1{
+    height: 619px;
+    width: 550px;
+    position: relative;
+    bottom: 21rem;
+    left: 6rem;
+}
+.down-banner1-con-img .down-banner1-con-img-2{
+    position: relative;
+    top:3rem ;
+    right: 2rem;
+    width: 295px;
+    height: 348px;
+}
+.down-banner1-con-img-border{
+    height: 619px;
+    width: 550px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+top: 229.5rem;
+left: 5rem;
+}
+
+.down-banner1-con-img-border button{
+    height: 76px;
+    width: 308px;
+    border: none;
+    background-color: white;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 20px;
+
+}
+
+
+
+
+
+  .down-banner1-con{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}   
+ 
+
+.down-banner1-text .down-banner1-text-p1{
+    color: #EAAA85;
+    font-family: "satisfy";
+    font-size: 35px;
+}
+
+.down-banner1-text .down-banner1-text-h1{
+     
+    font-family: "Raleway",sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    width: 400px;
+    margin-top: 1rem;
+     
+}
+.down-banner1-text-count{
+    display: flex;
+    margin-top: 3rem;
+}
+.down-banner1-text-count-border{
+    border-left: 4px solid #EAAA85;
+}
+.down-banner1-text-count p{
+    font-family: "Nunito Sans",sans-serif;
+width: 453px;
+font-size: 16px;
+margin-left: 1rem;
+}
+.down-banner1-text-p2{
+    font-family: "Nunito Sans",sans-serif;
+width: 453px;
+font-size: 16px;
+color: #616161;
+margin-top: 3rem;
+}
+.down-banner1-text-cot1 h1{
+    color: #EAAA85;
+    font-family: "Raleway",sans-serif;
+    font-weight: 300;
+
+}
+.down-banner1-text-cot{
+    display: flex;
+    /* background-color: antiquewhite; */
+width: 350px;
+justify-content:space-between ;
+margin-left: 3rem;
+margin-top: 4rem;
+
+}
+.down-banner1-text-cot1 p{
+    color: black;
+    font-family: "Raleway",sans-serif;
+     font-size: 18px;
+     font-weight: 500;
+     margin-top: 1rem;
+
+}
+
+.down-banner1-con #function2{
+    margin-top: 2rem;
+    margin-left: 2rem ;
+}
+.down-banner1-con #function2 {
+    font-family: "Nunito Sans", sans-serif;
+    height: 55px;
+    width: 150px;
+    background-color: transparent;
+    /* margin-top: 5rem; */
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    color: black; /* Default text color */
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.down-banner1-con #function2::before {
+    content: "";
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 130%;
+    height: 100%;
+    transform: rotate(90deg); 
+    transform-origin: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: -1;
+}
+.down-banner1-con{
+    margin-top: 1rem;
+}
+.down-banner1-con #function2:hover {
+    color: white; /* Change text color on hover */
+}
+
+.down-banner1-con #function2:hover::before {
+    transform: rotate(0deg);
+}
+/* db-con-end */
+
+
+
+/* banner-logos-start */
+.banner-logo-main{
+    display: flex;
+    justify-content: center;
+}
+.banner-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.banner-logo1 img{
+    height: 139px;
+    width: 119px;
+}
+
+.banner-logo1 p{
+     font-family: "Railway",sans-serif;
+     font-size: 19px;
+     font-weight: 400;
+}
+
+/* banner-logos-end */
+

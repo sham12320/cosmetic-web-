@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+
+ 
+
+
+/* footer-start */
+.foo{
+    margin-top: 12rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between; 
+    width: 90%;
+    align-items: center;
+     
+}
+.footer-con-parts{
+    display: flex;
+    justify-content: space-between ;
+    /* background-color: aqua; */
+    width: 30%;
+}
+.footer-main{
+    height: 350px; 
+    background-color: #131010;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-con1-location{
+    display: flex;
+   
+     
+     
+}
+
+ 
+.footer-con1-img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.footer-con1-img img{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+.footer-con1-location p{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-con1-location i{
+    color: rgb(151, 151, 151);
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-size: 17px;
+}
+
+ 
+.footer-con2-p1{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    color: white;
+     
+}
+
+.footer-con2-p2{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 13px;
+}.footer-con2-p3{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 6px;
+}.footer-con2-p4{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 6px;
+
+}
+
+
+
+.footer-con3-p1{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+     
+}
+
+.footer-con3-p2{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}.footer-con3-p3{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+} 
+
+
+.footer-con-4 p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-con-4 input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 40px;
+    width: 300px;
+    /* font-weight: bolder; */
+    font-size: 17px;
+    margin-top: 1rem;
+    outline: none;
+    
+}
+.footer-con-4{
+    margin-top: 3rem;
+}
+.footer-con-4 button{
+    font-family: "Nunito Sans", sans-serif;
+    height: 46px;
+    width: 140px;
+    margin-bottom: 4rem;
+    background-color: transparent;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+    cursor: pointer;
+    position: relative;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    
+}
+ 
+ 
+
+.footer-end-con{
+    height: 0%;
+    width: 98%;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+.footer-end-con p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+margin-top: 20px;
+}
+/* footer-end */
